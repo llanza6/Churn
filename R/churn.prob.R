@@ -4,6 +4,8 @@
 #'
 #'
 #'
+#'
+#'
 churn.prob<- function(data1=data.merged,Customer){
 
   model<-glm(formula=Exit~CreditScore+Gender+Age+Tenure+Balance+NumOfProducts+HasCrCard+IsActiveMember+EstimatedSalary,family="binomial",data=data1)
@@ -18,4 +20,5 @@ churn.prob<- function(data1=data.merged,Customer){
     print("CustomerID not found")
   }
 }
+
 
