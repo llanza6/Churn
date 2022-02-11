@@ -1,0 +1,15 @@
+Package: churnprobability
+Type: Package
+Title: curn.prob
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: function that takes as input the dataset and a customer id and
+             returns the churn probability for that customer id only
+Depends: R(>= 3.0.1), data.table
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
